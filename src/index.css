@@ -1,0 +1,129 @@
+/* CSS Resets */
+
+:root {
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root {
+  isolation: isolate;
+}
+
+/* Default font size for REM */
+h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 2.08rem;
+}
+h4,
+p {
+  font-size: 1.7rem;
+}
+ul,
+ol {
+  font-size: 2rem;
+}
+
+.wrapper {
+  width: 90%;
+  margin-inline: auto;
+  max-width: 1200px;
+}
+
+/* Styles */
+main {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  height: 100%;
+  scroll-snap-align: start;
+}
+
+/* Hero Section */
+.heroSection {
+  background-color: #d7defa;
+  
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
