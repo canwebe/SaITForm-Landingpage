@@ -1,9 +1,11 @@
+import laptopImg from '../../assets/laptop.png'
+
 export default function DemoApp() {
   return (
     <>
       <div className="demoapp-wrapper">
         <div className="laptop">
-          <img src="/public/laptop.png" alt="laptop mockup" />
+          <img src={laptopImg} alt="laptop mockup" />
         </div>
         <div className="bg-blue">
           <div className="demoapp-info wrapper">

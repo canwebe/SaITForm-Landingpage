@@ -1,7 +1,11 @@
+import mainSnap from '../../assets/main-snap.jpg'
+import formSnap from '../../assets/form-snap.jpg'
+import pdfSnap from '../../assets/pdf-snap.jpg'
+
 export default function SolutionSection() {
   const solutions = [
     {
-      img: '/public/main-snap.jpg',
+      img: mainSnap,
       header: 'Home Screen of the application form',
       data: [
         'Enter candidate name and mobile number',
@@ -11,7 +15,7 @@ export default function SolutionSection() {
       ],
     },
     {
-      img: '/public/form-snap.jpg',
+      img: formSnap,
       header: 'Main Application Form Filling',
       data: [
         'Detailed entry of user info with photo upload',
@@ -21,7 +25,7 @@ export default function SolutionSection() {
       ],
     },
     {
-      img: '/public/pdf-snap.jpg',
+      img: pdfSnap,
       header: 'Generated PDF of the Application Form',
       data: [
         'Check entered info before finalize',
