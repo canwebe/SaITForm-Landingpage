@@ -13,7 +13,9 @@ function App() {
         <ProblemSection />
         <SolutionSection />
       </section>
-      <DemoApp />
+      <section>
+        <DemoApp />
+      </section>
     </main>
   )
 }

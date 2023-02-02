@@ -118,7 +118,6 @@ main {
 }
 
 section {
-  height: 100%;
   scroll-snap-align: start;
 }
 
@@ -133,6 +132,7 @@ section {
 
 /* Hero Section */
 .hero-section {
+  height: 100%;
   background-color: #d7defa;
   background-image: linear-gradient(
       hsla(228, 78%, 91%, 0.96),
@@ -190,7 +190,6 @@ section {
 
 .problem-section {
   background-color: #f3f1e7;
-  height: auto;
 }
 
 .problem-wrapper {
@@ -329,12 +328,8 @@ section {
 
 /* Demo App */
 .demoapp-wrapper {
-  height: 100vh;
   padding-top: 5rem;
-  background-color: rgb(215, 244, 250);
-  position: relative;
 }
-
 .laptop {
   width: 90%;
   max-width: 800px;
@@ -342,18 +337,48 @@ section {
   z-index: 1;
   position: relative;
 }
+.bg-blue {
+  background-color: #6f6fa9;
+  margin-top: -15rem;
+  padding-block: 18rem 10rem;
+}
 
 .demoapp-info {
-  background-color: rgb(0, 0, 42);
   color: white;
-  padding-top: 20rem;
-  position: absolute;
-  bottom: 0;
-  height: 50vh;
-  overflow-y: scroll;
+  text-align: center;
 }
 
 .demoapp-info p {
-  font-size: 2rem;
-  width: 30%;
+  font-size: 1.8rem;
+  color: rgb(219, 223, 245);
+  width: 70%;
+  margin-top: 1rem;
+  margin-inline: auto;
+}
+
+.contact-info {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  margin-top: 12rem;
+  /* width: fit-content; */
+  padding: 5rem;
+  border-radius: 0.7rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-info p {
+  border-top: 1px solid #a3a3a3;
+  color: #9f9f9f;
+  padding-top: 1rem;
+  margin-top: 3rem;
+}
+.contact-info p a {
+  color: orange;
+  text-decoration: none;
+  font-weight: 500;
 }
