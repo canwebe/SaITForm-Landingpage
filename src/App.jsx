@@ -1,3 +1,4 @@
+import DemoApp from './components/DemoApp'
 import HeroSection from './components/HeroSection'
 import ProblemSection from './components/ProblemSection'
 import SolutionSection from './components/SolutionSection'
@@ -12,6 +13,7 @@ function App() {
         <ProblemSection />
         <SolutionSection />
       </section>
+      <DemoApp />
     </main>
   )
 }

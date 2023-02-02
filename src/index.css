@@ -82,7 +82,7 @@ h1 {
   font-weight: 600;
 }
 h2 {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
 }
 h3 {
   font-size: 2.08rem;
@@ -93,7 +93,7 @@ p {
 }
 ul,
 ol {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .wrapper {
@@ -111,7 +111,7 @@ button {
 
 /* Styles */
 main {
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
   overflow-y: scroll;
   height: 100vh;
   scroll-behavior: smooth;
@@ -253,36 +253,107 @@ section {
   color: rgb(209, 35, 35);
 }
 
-/* .problem-solution h3::before {
-  content: '';
-  height: 3px;
-  width: 7rem;
-  display: block;
-  margin-inline: auto;
-  margin-bottom: 0.5rem;
-  background-color: #374aa7;
-}
-.problem-solution h3 {
-  color: grey;
-} */
-
 .solution-topbar {
   margin-inline: auto;
   width: fit-content;
   /* border-bottom: 1rem solid white; */
-  margin-bottom: 5rem;
-  padding-bottom: 1rem;
 }
 
-.snaps-wrapper {
+.snap-wrapper {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-block: 7rem;
 }
-.snap {
-  height: 360px;
-  width: 700px;
-  background-color: white;
+
+.snap-wrapper:nth-child(3) {
+  flex-direction: row-reverse;
 }
+
+/* .snap-img,
+.snap-info {
+  flex-basis: 100%;
+} */
 
 .snap-img {
-  background-color: darkblue;
+  border-radius: 0.7rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border: 5px solid white;
+  width: 50%;
+}
+.snap-wrapper img {
+  border-radius: 0.7rem;
+  /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border: 5px solid white; */
+}
+
+.snap-info {
+  width: 50%;
+  max-width: 480px;
+}
+.snap-info h2 {
+  font-weight: 500;
+  width: fit-content;
+  z-index: 1;
+  position: relative;
+}
+
+.snap-info h2::after {
+  content: '';
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  background-color: #bff76a;
+  display: block;
+  bottom: 7px;
+  border-radius: 0 50vw 50vw 0;
+  transform: rotateZ(-1deg);
+  z-index: -1;
+}
+
+.snap-info ul {
+  margin-left: 2rem;
+}
+.snap-info ul li {
+  margin-top: 0.5rem;
+}
+
+.snap-wrapper:nth-child(3) .snap-info h2::after {
+  background-color: #a9c5ef;
+}
+
+.snap-wrapper:nth-child(4) .snap-info h2::after {
+  background-color: #f5bdad;
+}
+
+/* Demo App */
+.demoapp-wrapper {
+  height: 100vh;
+  padding-top: 5rem;
+  background-color: rgb(215, 244, 250);
+  position: relative;
+}
+
+.laptop {
+  width: 90%;
+  max-width: 800px;
+  margin-inline: auto;
+  z-index: 1;
+  position: relative;
+}
+
+.demoapp-info {
+  background-color: rgb(0, 0, 42);
+  color: white;
+  padding-top: 20rem;
+  position: absolute;
+  bottom: 0;
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+.demoapp-info p {
+  font-size: 2rem;
+  width: 30%;
 }
