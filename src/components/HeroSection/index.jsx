@@ -2,7 +2,7 @@ export default function HeroSection({ targetRef }) {
   return (
     <div className="wrapper hero">
       <h4 className="hero-subheader">SaITForm is for SaIT College Students</h4>
-      <h1 className="hero-header">An Online Student Application Form</h1>
+      <h1 className="hero-header">Digitizated student's admission form</h1>
       <p className="hero-para">
         This is one of the services of CWBEdu. This is basically an admissions
         form made for SaIT College. SaITForm completely digitises the
