@@ -511,9 +511,9 @@ section {
   .hero-para {
     margin-block: 0 1.5rem;
     width: 100%;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(1px);
     padding: 2rem;
-    background-color: #d5dbf870;
+    background-color: #d5dbf826;
   }
   .solution-topbar h1 {
     font-size: 2.7rem;
