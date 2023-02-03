@@ -509,8 +509,11 @@ section {
     line-height: 1.2;
   }
   .hero-para {
-    width: 90%;
-    margin-block: 1.6rem 2.5rem;
+    margin-block: 0 1.5rem;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    padding: 2rem;
+    background-color: #d5dbf870;
   }
   .solution-topbar h1 {
     font-size: 2.7rem;
