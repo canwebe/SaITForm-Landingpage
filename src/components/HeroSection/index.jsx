@@ -1,4 +1,4 @@
-export default function HeroSection() {
+export default function HeroSection({ targetRef }) {
   return (
     <div className="wrapper hero">
       <h4 className="hero-subheader">SaITForm is for SaIT College Students</h4>
@@ -12,8 +12,20 @@ export default function HeroSection() {
         architecto quod libero laudantium aperiam iste fugiat.
       </p>
       <div className="hero-btndiv">
-        <button className="btn-knowmore">Know More</button>
-        <button className="btn-contact">Contact Us</button>
+        <button
+          onClick={() => targetRef.current.scrollIntoView()}
+          className="btn-knowmore"
+        >
+          Know More
+        </button>
+        <a
+          href="https://www.canwebe.tech/form/contact"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-contact"
+        >
+          Contact Us
+        </a>
       </div>
     </div>
   )

@@ -1,8 +1,4 @@
 /* CSS Resets */
-
-:root {
-}
-
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -100,6 +96,9 @@ ol {
   width: 90%;
   margin-inline: auto;
   max-width: 1200px;
+}
+a {
+  text-decoration: none;
 }
 
 button {
@@ -337,10 +336,23 @@ section {
   z-index: 1;
   position: relative;
 }
+.laptop img {
+  position: relative;
+  z-index: 8;
+}
+
+.laptop iframe {
+  position: absolute;
+  left: 13.9%;
+  top: 7.1%;
+  width: 72.2%;
+  height: 82%;
+}
+
 .bg-blue {
   background-color: #6f6fa9;
   margin-top: -15rem;
-  padding-block: 18rem 10rem;
+  padding-block: 18rem 5rem;
 }
 
 .demoapp-info {
@@ -354,6 +366,10 @@ section {
   width: 70%;
   margin-top: 1rem;
   margin-inline: auto;
+}
+
+.demoapp-info h1 {
+  color: #292955;
 }
 
 .contact-info {
@@ -379,6 +395,5 @@ section {
 }
 .contact-info p a {
   color: orange;
-  text-decoration: none;
   font-weight: 500;
 }

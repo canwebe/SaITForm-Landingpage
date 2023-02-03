@@ -6,14 +6,23 @@ export default function DemoApp() {
       <div className="demoapp-wrapper">
         <div className="laptop">
           <img src={laptopImg} alt="laptop mockup" />
+          <iframe
+            src="https://www.youtube.com/embed/xfu71651PBo?start=38"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          />
         </div>
         <div className="bg-blue">
           <div className="demoapp-info wrapper">
             <h1>Here is the full demo of the App</h1>
             <p>
-              It is comes with Admin panel Admin panel connected to colleges
-              Only activated and authenticated machines can use this application
-              It can Show list of students
+              It is comes with Admin which is connected to college DataBase.
+              Admin panel can only be access by authenticated and activated
+              system only. Admin panel comes with getting list of students,
+              additional info, edit info, generated pdf, searching , sorting
+              etc.
             </p>
           </div>
           <div className="contact-info wrapper">
@@ -21,7 +30,14 @@ export default function DemoApp() {
               If you want this service or other CWBEdu services to your
               institution
             </h3>
-            <button className="btn-contact">Contact Us</button>
+            <a
+              href="https://www.canwebe.tech/form/contact"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-contact"
+            >
+              Contact Us
+            </a>
             <p>
               Designed and Developed By{' '}
               <a
