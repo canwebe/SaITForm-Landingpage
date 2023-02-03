@@ -1,6 +1,6 @@
-import mainSnap from '../../assets/main-snap.jpg'
-import formSnap from '../../assets/form-snap.jpg'
-import pdfSnap from '../../assets/pdf-snap.jpg'
+import mainSnap from '../../assets/main-snap.webp'
+import formSnap from '../../assets/form-snap.webp'
+import pdfSnap from '../../assets/pdf-snap.webp'
 
 export default function SolutionSection() {
   const solutions = [

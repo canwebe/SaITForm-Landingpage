@@ -9,20 +9,18 @@ export default function DemoApp() {
           <iframe
             src="https://www.youtube.com/embed/xfu71651PBo?start=38"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen
           />
         </div>
         <div className="bg-blue">
           <div className="demoapp-info wrapper">
             <h1>Here is the full demo of the App</h1>
             <p>
-              It is comes with Admin which is connected to college DataBase.
-              Admin panel can only be access by authenticated and activated
-              system only. Admin panel comes with getting list of students,
-              additional info, edit info, generated pdf, searching , sorting
-              etc.
+              It comes with Admin which is connected to college DataBase. Admin
+              panel can only be access by authenticated and activated system
+              only. Admin panel comes with getting list of students, additional
+              info, edit info, generated pdf, searching , sorting etc.
             </p>
           </div>
           <div className="contact-info wrapper">
