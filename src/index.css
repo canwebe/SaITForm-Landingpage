@@ -345,7 +345,8 @@ section {
 
 /* Demo App */
 .demoapp-wrapper {
-  padding-top: 5rem;
+  padding-top: 7rem;
+  background-color: white;
 }
 .laptop {
   width: 100%;
@@ -353,10 +354,6 @@ section {
   margin-inline: auto;
   z-index: 1;
   position: relative;
-}
-.laptop img {
-  position: relative;
-  z-index: 8;
 }
 
 .laptop iframe {
@@ -488,6 +485,22 @@ section {
   }
   .laptop {
     width: 90%;
+  }
+
+  main {
+    scroll-snap-type: none;
+  }
+
+  section {
+    scroll-snap-align: unset;
+  }
+
+  .hero-section {
+    position: sticky;
+    top: 0;
+  }
+  .problem-section {
+    position: relative;
   }
 }
 

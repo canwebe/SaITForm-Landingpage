@@ -14,8 +14,6 @@ function App() {
       <section className="problem-section" ref={targetRef}>
         <ProblemSection />
         <SolutionSection />
-      </section>
-      <section>
         <DemoApp />
       </section>
     </main>
