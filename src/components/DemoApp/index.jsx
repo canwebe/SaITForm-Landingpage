@@ -7,7 +7,7 @@ export default function DemoApp() {
         <div className="laptop">
           <img src={laptopImg} alt="laptop mockup" />
           <iframe
-            src="https://www.youtube.com/embed/xfu71651PBo?start=38"
+            src="https://www.youtube.com/embed/UyRXxt3sYwo?start=79"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
