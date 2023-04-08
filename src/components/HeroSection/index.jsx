@@ -18,7 +18,7 @@ export default function HeroSection({ targetRef }) {
           Know More
         </button>
         <a
-          href="https://www.canwebe.tech/form/contact?refer=https://cwbeduform.netlify.app"
+          href="https://www.canwebe.in/form/contact?refer=https://cwbeduform.netlify.app"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-contact"

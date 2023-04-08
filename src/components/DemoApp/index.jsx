@@ -29,7 +29,7 @@ export default function DemoApp() {
               institution
             </h3>
             <a
-              href="https://www.canwebe.tech/form/contact?refer=https://cwbeduform.netlify.app"
+              href="https://www.canwebe.in/form/contact?refer=https://cwbeduform.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-contact"
@@ -39,7 +39,7 @@ export default function DemoApp() {
             <p>
               Designed and Developed By{' '}
               <a
-                href="https://canwebe.tech"
+                href="https://www.canwebe.in"
                 target="_blank"
                 rel="noopener noreferrer"
               >
